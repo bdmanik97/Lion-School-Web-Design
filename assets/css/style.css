@@ -5,7 +5,12 @@
 }
 
 body{
-    background-image: url(../images/back501.jpg);
+    background: url(../images/main-background.jpg);
+    background-size: contain;
+    height: 100vh;
+}
+.slide-area{
+    padding: 50px 200px;
 }
 .nav{
     background-color: rgb(49, 183, 56);
@@ -71,3 +76,71 @@ body{
     margin-left: 200px;
     margin-right: 200px;
 } */
+
+/* massages area start */
+.contact-area{
+    margin-top: 30px;
+}
+.contact-main-area{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    column-gap: 20px;
+}
+.contact-person-area{
+    background:#0A8E28 ;
+    width: 300px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+.contart-person-main-area{
+    
+}
+.contact-person-images{}
+.contact-person-name{
+    padding-left: 20px;
+    border-bottom: 2px solid grey;
+
+}
+.contact-person-name h1{
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-top: 10px;
+
+}
+.massage-send-btn{
+    padding-left: 20px;
+}
+.send-msg-btn{
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 600;
+
+}
+/* massages area end */
+.notice-area{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 40px;
+    border: 2px solid #0A8E28;
+}
+.notice-header {
+    background: #0A8E28;
+    padding: 5px 15px;
+    width: 200px;
+}
+.notice-header p{
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 600;
+   
+}
+.notice-list{
+   
+    background: #ffffff;
+    color: #0A8E28;
+}
